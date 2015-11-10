@@ -1,0 +1,78 @@
+body{
+	height: 100%;
+	font-size: 11pt; 
+	width: 100%;
+}
+#header{
+	text-align:  center;
+	width: 17cm;
+	margin:30px 25%;
+}
+#content{
+	width: 17cm;
+	margin:30px 25%;
+}
+p{
+	margin: 15px 0;
+}
+h1{
+	font-size: 20pt;
+	font-weight: bold;
+	margin:30px 0px;
+}
+h2{
+	font-size: 18pt;
+	font-weight: bold;
+	margin:30px 0px;
+}
+h3{
+	font-size: 16pt;
+	font-weight: bold;
+	margin:30px 0px;
+}
+.Autor{
+	font-style: italic; 
+	font-size: 14pt;
+}
+.firstpar{
+	font-weight: bold;
+}
+.secondpar{
+	font-style: italic;
+	text-align:  center;
+}
+.thirdpar{
+	font-style: italic;
+	font-weight: bold;
+}
+.pic1{
+	float: left; 
+	margin: 10px 10px 5px 0px;
+}
+.pic2{
+	text-align: center;
+	margin:30px 0px;
+}
+.fourthpar{
+	font-style: italic;
+	text-align: right;
+}
+span{
+	text-decoration: underline;
+}
+ul{
+	padding:5px 20px ;
+	list-style-type: disc;
+
+}
+ol{
+	padding:5px 20px ;
+	list-style-type: decimal;
+	margin-bottom:30px;
+}
+em{
+	font-style: italic;
+}
+strong{
+	font-weight: bold; 
+}
