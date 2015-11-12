@@ -1,0 +1,32 @@
+body{
+	width: 100%;
+}
+form{
+	width: 50%;
+	padding:10px;
+}
+fieldset{
+	padding: 25px;
+	margin: 10px;
+	border: 2px solid black;
+}
+li{
+	margin-top: 6px;
+}
+ul{
+	list-style-type:none;
+}
+button[type=submit]{
+	margin-left: 20px;
+}
+
+span{
+	font-weight: bold;
+}
+select[name="html"]{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+em{
+	font-style: italic;
+}
