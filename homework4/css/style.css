@@ -1,0 +1,231 @@
+@font-face 
+{
+	font-family: 'VersaSansCon';
+	src: url(../Font/VersaSansCon-SemiBold.ttf);   
+}
+
+body {
+	font: 11px grey 'Tahoma' ;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	color: #06A9B7;
+	transition: 0.1s linear;
+}
+/*--------------------- header area --------------------*/
+#header-section{
+	width: 100%;
+	background-color: #ffffff;
+}
+.header {
+	overflow: hidden;
+	padding: 30px 0 8px ; 
+	width: 1000px;
+	margin: 20px auto 0;
+	padding: 0 20px;
+}
+.logo{
+	float: left;
+	font: 18px black 'VersaSansCon';
+}    
+/*--------------------- main --------------------*/
+#content-section{
+	width: 100%;
+	background-color: #f4f4f4;
+	line-height: 1.5;
+
+}
+.main{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1000px;
+	background: #f4f4f4;
+	padding: 0 20px;
+}
+h3{
+	font-size: 11px;
+	font-weight: bold;
+}
+h4{
+	font: 18px black 'VersaSansCon';
+	margin-bottom: 13px;
+}
+.grey{
+	color: #888888;
+}
+.black{
+	color: #191919;
+}
+/*--------------------- sidebar left --------------------*/
+.sidebar_left{
+	width: 120px;
+	float: left;
+	margin-right: 20px;
+}
+.description  {
+	margin-top: 20px;
+}
+.description img{
+	margin-top: 10px;
+}
+input{
+	width:100%;
+	border: none;
+}
+.category h3{
+	margin: 22px 0 4px ;
+}
+.category ul li {
+	background: #e8e8e8;
+	margin-top: 2px;
+}
+.category_right{
+	float: right;
+}
+.category a{
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+}
+.category ul li a:hover{
+	background: #ababab;
+	color: #80FBFF;
+	transition: 0.3s linear;
+}
+/*--------------------- content --------------------*/
+.news_top{
+	margin-top: 21px;
+}
+.content{
+	width: 500px;
+	float: left;
+	margin-right: 20px;
+}
+.cont_img2{
+	float: right;
+	margin-left: 28px;
+}
+.news h2{
+	float: left;
+	font: 24px black 'VersaSansCon';
+	margin-bottom: 13px;
+}
+.text_news{
+	margin: 26px 0 20px;
+	font: 12px black 'Tahoma';
+}
+.blog ul{
+	margin-top: 54px;
+}
+
+.blog_decscription{
+	padding-top: 34px;
+}
+dt,dd{
+	display: inline;
+}
+.teg li{
+	display: inline;
+	margin-bottom: 4px;
+}
+.blog p{
+	margin-bottom: 26px;
+}
+
+
+
+.pages{
+	margin:56px 0 70px;
+}
+.pages ul{
+	list-style: none;
+}
+.pages ul li {
+	display: inline;
+}
+.pages ul li a {
+	padding: 5px 7px;
+	font-color: #191919; 
+}
+/*--------------------- sidebar right --------------------*/
+.sidebar_right{
+	width: 300px;
+	float: left;
+}
+.in_line{
+	margin-top: 22px;x
+}
+.in_line li{
+	display: inline-block; 
+	float: left; 
+	width: 140px;
+	padding-bottom: 18px;
+}
+.in_line li:first-child{
+	margin-right: 18px;
+} 
+.in_line li img{
+	float: left;
+	margin-right: 5px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; 
+}
+.in_line li img:hover{
+	margin-right: 5px;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.sb_img img{
+	margin-top: 5px;
+}
+.sidebar_both li:first-child {
+	width: 160px;
+	float: left;
+}
+.sidebar_both li:last-child {
+	width: 120px; 
+	float: right;
+}
+.sidebar_both h3{
+	margin:20px 0 5px;
+}
+/*--------------------- pagination --------------------*/
+.active {
+	background: #555555;
+	padding: 5px 0px;
+	margin-left: 5px;
+
+}
+.active a{
+	color: white;
+}
+.pages li{
+	padding: 5px 0px;
+}
+.pages li a:hover{
+	background: #555555;
+	margin: 5px 0px;
+	color: white;
+}
+/*--------------------- footer --------------------*/
+#footer-section{
+	width: 100%;
+	background-color: #ffffff;
+}
+.footer{ 
+	clear: both;
+	padding-bottom: 20px;
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+}
+
