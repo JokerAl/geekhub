@@ -1,0 +1,276 @@
+@font-face 
+{
+	font-family: 'Helios';
+	src: url(../Font/Helios.ttf);  
+}	
+@font-face 
+{	font-family: 'AFK';
+src: url(../Font/AFKlampenborg-Medium.otf);
+}
+
+body{
+	width: 100%;
+	background: -webkit-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+}
+.wrapper{
+	width: 776px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #03a7fe;
+}
+/*-------- header ---------*/
+.header{
+	border-bottom: 1px solid gray;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 291px;
+}
+.logo span{
+	margin: 58px 0 40px;
+	font:21.5px 'AFK';
+	color: #939598;
+	width: 121px;
+	float: right;
+}
+.logo img{
+	margin:40px -5px 0 0; 
+}
+.right-header{
+	overflow: hidden;
+}
+
+.reg{
+	padding: 10px 18px 6px;
+	float: right;
+	background: white;
+	border-radius: 14px ;
+	margin-top: -10px;
+}
+.reg a{
+	font: 11px sans-serif 'arial';
+	color: #747474;
+	text-decoration: none;
+	margin: 0 4px ;
+}
+.reg a:hover{
+	color: #02a4fa;
+}
+.name{
+	margin: 36px 26px 44px 0;
+	float: right;
+	clear: both;
+}
+.name h2{
+	font: 15px 'Helios';
+	color: #646464;
+}
+.menu{
+	float: right;
+	margin-right: 26px;
+}
+.menu ul li{
+	display: inline;
+	padding: 14px 0;
+	float: right;
+	text-align: center;
+	width: 132px;
+	border-top: 1px solid #939598;
+	border-left: 1px solid #939598;
+	box-shadow: inset 2px 1px 10px #939598;
+	font-size: 16px;
+}
+.menu ul li a{
+	color: #939598;
+}
+.menu ul li a:hover{
+	color: #45b8fb;
+}
+.menu ul li:last-child{
+	border-radius: 20px 0 0 0;
+}
+.menu ul li:first-child{
+	border-radius: 0 20px 0 0;
+	border-right: 1px solid #939598;
+}
+.active{
+	background: #fcfcfd; 
+	padding-bottom: 20px;
+	background: linear-gradient(to top, #d0d9da, white); 
+}
+.menu ul .active a{
+	color: #45b8fb;
+}
+/*-------- main ---------*/
+#main{
+	margin: 0 auto;
+	overflow: hidden;
+}
+#sidebar{
+	width: 230px;
+	margin-right: 18px;
+	float: left;
+}
+
+#sidebar h3{
+	margin: 24px 0 26px;
+	color: #03a7fe;
+	font-size: 20px;
+}
+.nav li{
+	padding: 8px 0;
+	border-bottom: 1px solid #c5c5c4;
+}
+.nav li a{
+	color:#555555;
+	font-size: 14px;
+}
+.nav li a:hover{
+	color: #03a7fe;
+}
+#sidebar h3 img{
+	margin-left: 6px;
+}
+.nav li img{
+	margin-right: 10px;
+}
+.nav li:last-child{
+	border-bottom: none;
+}
+.RSS{
+	border-top: 1px solid #cbcac9;
+	border-bottom: 1px solid #cbcac9;
+	text-align: center;
+	margin: 40px 0 35px 0;
+	padding: 20px 0;
+}
+.RSS a{
+	color: #ff9600; 
+}
+.RSS a:hover{
+	color: #03a7fe;
+}
+.RSS span{
+	padding: 5px 22px;
+	border: 2px solid #ff9600;
+	border-radius: 16px;
+	font: 18px 'AFK';
+}
+.reclame li{
+	margin-bottom: 15px;
+	text-align: center;	
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; 
+}
+.reclame li:hover{
+	margin-bottom: 15px;
+	text-align: center;	
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.content{
+	width: 527px;
+	float: right;
+	overflow: hidden;
+	margin: 60px 0 115px 0;
+}
+.content h2{
+	font-size: 26px;
+	margin-bottom: 10px;
+	color: #010101;
+}
+.comp1{
+	padding: 18px 0;
+	border-top: 1px solid #03a7fe;
+}
+.comp1 img{
+	float: left;
+	margin: 0 20px 0 12px;
+	height: 100%;
+}
+.comp1 h3{
+	text-align: left;
+	font-size: 22px;
+	color: #03a7fe;
+}
+.comp1 ul li div{
+	width: 100%;
+}
+.comp1 dt{
+	float: left;
+	width: 177px;
+	background-color: #dfe5e6;
+	padding: 6px 10px;
+	margin-top: 3px;
+	font-size: 12px;
+	color: #505050;
+}
+.comp1 dd{
+	float: right;
+	width: 176px;
+	background-color: #dfe5e6;
+	padding: 6px 10px;
+	margin-top: 3px;
+	font-size: 12px;
+	color: #000000;
+}
+dd a{
+	color: #000000;
+}
+.comp1 dl{
+	overflow: hidden;
+	margin-left: 10px;
+}
+dd.seo{
+	margin-top: 0;
+
+	padding: 6px 10px 6px 240px;
+}
+dd.seo:nth-child(odd){
+	background: #edf0f1;
+}
+.seo .fa{
+	padding-right: 5px;
+	color: #6c6c6c;
+}
+li.comp1:last-child{
+	border-bottom: 1px solid #03a7fe;
+}
+
+/*-------- footer ---------*/
+#footer{
+	border-top: 1px solid gray;
+	overflow: hidden;
+	clear: both;
+	margin: 0 auto;
+}   
+.f-panel{
+	border-radius: 0 0 16px 16px;
+	background: #d9dada;
+	padding: 5px 18px;
+	margin: 0 26px 30px 248px; 
+	font-size: 12px;
+	color: #78797b;
+}
+.f-panel a{
+	color: #000000;
+}
+.f-panel a:hover{
+	color: #03a7fe;
+}
+.f-panel img{
+	float: right;
+}
