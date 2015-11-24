@@ -231,8 +231,6 @@ li.active {
 	color: #505050;
 }
 .comp1 dd{
-	float: right;
-	width: 176px;
 	background-color: #dfe5e6;
 	padding: 6px 10px;
 	margin-top: 3px;
@@ -248,7 +246,7 @@ dd a{
 }
 dd.seo{
 	margin-top: 0;
-	padding: 6px 10px 6px 240px;
+	padding: 6px 10px 6px 198px;
 }
 dd.seo:nth-child(odd){
 	background: #edf0f1;
