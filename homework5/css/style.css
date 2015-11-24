@@ -5,12 +5,11 @@
 }	
 @font-face 
 {	font-family: 'AFK';
-src: url(../Font/AFKlampenborg-Medium.otf);
+	src: url(../Font/AFKlampenborg-Medium.otf);
 }
 
 body{
-	width: 100%;
-	background: -webkit-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+	background: url(../img/bg.png) 0 0 repeat-x;
 }
 .wrapper{
 	width: 776px;
@@ -26,32 +25,36 @@ a:hover{
 /*-------- header ---------*/
 .header{
 	border-bottom: 1px solid gray;
-	overflow: hidden;
+	padding-bottom: 160px; 
+	position: relative;
+	z-index: 1;
 }
 .logo{
 	float: left;
 	width: 291px;
 }
-.logo span{
-	margin: 58px 0 40px;
-	font:21.5px 'AFK';
-	color: #939598;
-	width: 121px;
-	float: right;
-}
+
 .logo img{
 	margin:40px -5px 0 0; 
 }
 .right-header{
-	overflow: hidden;
+	
+	float: right;
 }
 
 .reg{
 	padding: 10px 18px 6px;
 	float: right;
 	background: white;
-	border-radius: 14px ;
+	border-radius: 0 0 14px 14px;
 	margin-top: -10px;
+}
+.reg ul li{
+	display: inline-block;
+}
+.reg ul li:first-child a{
+	border-right: 1px solid;
+	padding-right: 12px;
 }
 .reg a{
 	font: 11px sans-serif 'arial';
@@ -62,55 +65,60 @@ a:hover{
 .reg a:hover{
 	color: #02a4fa;
 }
-.name{
-	margin: 36px 26px 44px 0;
-	float: right;
-	clear: both;
+h1{
+	margin: 60px 26px 44px 0;
+	padding-left: 115px;
 }
-.name h2{
+h1{
 	font: 15px 'Helios';
 	color: #646464;
 }
-.menu{
-	float: right;
+ul.menu{
+	position: absolute;
 	margin-right: 26px;
+	border-radius: 25px 25px 0 0;
+	z-index: 3;
+	bottom: -1px;
+	right: 0;
+	background-color: white;
 }
-.menu ul li{
-	display: inline;
+.menu li{
+	display: inline-block;
+	float: left;
 	padding: 14px 0;
-	float: right;
 	text-align: center;
 	width: 132px;
-	border-top: 1px solid #939598;
-	border-left: 1px solid #939598;
-	box-shadow: inset 2px 1px 10px #939598;
+	border: 1px solid #939598;
+	border-right: none;
 	font-size: 16px;
+	background: linear-gradient(to top, #e0e2e1, #e5eaeb); 
 }
-.menu ul li a{
-	color: #939598;
-}
-.menu ul li a:hover{
-	color: #45b8fb;
-}
-.menu ul li:last-child{
-	border-radius: 20px 0 0 0;
-}
-.menu ul li:first-child{
-	border-radius: 0 20px 0 0;
+.menu li:last-child{
 	border-right: 1px solid #939598;
 }
-.active{
-	background: #fcfcfd; 
-	padding-bottom: 20px;
-	background: linear-gradient(to top, #d0d9da, white); 
+.menu li a{
+	color: #939598;
 }
-.menu ul .active a{
+.menu li a:hover{
 	color: #45b8fb;
 }
+.menu  li:last-child{
+	border-radius: 0 20px 0 0;
+}
+.menu li:first-child{
+	border-radius: 20px 0 0 0;
+}
+li.active {
+	background: #fcfcfd; 
+	background: linear-gradient(to top, #e9eded, white); 
+	border-bottom-color: #e9eded;
+	color: #45b8fb;
+}
+
 /*-------- main ---------*/
 #main{
-	margin: 0 auto;
 	overflow: hidden;
+
 }
 #sidebar{
 	width: 230px;
@@ -130,33 +138,41 @@ a:hover{
 .nav li a{
 	color:#555555;
 	font-size: 14px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
 }
 .nav li a:hover{
 	color: #03a7fe;
 }
-#sidebar h3 img{
-	margin-left: 6px;
+#sidebar h3 {
+	background: url(../img/arrow2.png) no-repeat right;
+	width: 116px;
 }
+
 .nav li img{
 	margin-right: 10px;
 }
 .nav li:last-child{
 	border-bottom: none;
 }
-.RSS{
+.rss{
 	border-top: 1px solid #cbcac9;
 	border-bottom: 1px solid #cbcac9;
 	text-align: center;
 	margin: 40px 0 35px 0;
 	padding: 20px 0;
 }
-.RSS a{
-	color: #ff9600; 
+.rss a{
+	color: #939598; 
 }
-.RSS a:hover{
+.rss a i{
+	color: #ff9600;
+}
+.rss a:hover{
 	color: #03a7fe;
 }
-.RSS span{
+.rss span a{
 	padding: 5px 22px;
 	border: 2px solid #ff9600;
 	border-radius: 16px;
@@ -182,8 +198,6 @@ a:hover{
 	filter: grayscale(0%);
 }
 .content{
-	width: 527px;
-	float: right;
 	overflow: hidden;
 	margin: 60px 0 115px 0;
 }
@@ -206,9 +220,7 @@ a:hover{
 	font-size: 22px;
 	color: #03a7fe;
 }
-.comp1 ul li div{
-	width: 100%;
-}
+
 .comp1 dt{
 	float: left;
 	width: 177px;
@@ -235,8 +247,8 @@ dd a{
 	margin-left: 10px;
 }
 dd.seo{
+	float: left;
 	margin-top: 0;
-
 	padding: 6px 10px 6px 240px;
 }
 dd.seo:nth-child(odd){
@@ -255,7 +267,6 @@ li.comp1:last-child{
 	border-top: 1px solid gray;
 	overflow: hidden;
 	clear: both;
-	margin: 0 auto;
 }   
 .f-panel{
 	border-radius: 0 0 16px 16px;
