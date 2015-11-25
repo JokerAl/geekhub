@@ -59,6 +59,9 @@ h4{
 .grey a{
 	color: #888888;
 }
+.grey a:hover{
+	color: #06A9B7;
+}
 .black{
 	color: #191919;
 }
