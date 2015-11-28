@@ -140,6 +140,7 @@ header a, .news a{
 .meals a.button:hover, .newsletter .button:hover, .news .button:hover{
 	color: rgb(255,255,255);
 	background-color: rgb(221,75,43);
+	background-size:cover;
 }
 /*----------  News   ---------*/
 .news{
@@ -178,6 +179,7 @@ header a, .news a{
 	background: url(../img/newsletter.png) no-repeat bottom rgb(132,80,23);
 	color: rgb(255,255,255);
 	overflow: hidden;
+	background-size:cover;
 }
 .newsletter h2 {
 	font-size: 30px;
@@ -203,6 +205,7 @@ input[type=email] {
 	width: 510px;
 	margin: 35px 0 95px 330px;
 	font-weight: 400;
+	outline: none;
 }
 input[type=email]::-webkit-input-placeholder {
 	color: rgb(255,255,255);
@@ -319,6 +322,7 @@ footer{
 	background: url(../img/footer.png) no-repeat bottom rgb(132,80,23);
 	color: rgb(255,255,255);
 	overflow: hidden;
+	background-size:cover;
 }
 footer p{
 	text-align: center;
