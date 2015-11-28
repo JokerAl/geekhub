@@ -94,6 +94,7 @@ header a, .news a{
 	background: url(../img/bg_content.png) no-repeat center black;
 	color: white;
 	overflow: hidden;
+	background-size:cover;
 }
 .meals h1{
 	font-size: 72px;
