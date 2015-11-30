@@ -14,10 +14,7 @@
 body{
 	font-family: 'Roboto Slab', sans-serif;
 }
-.wrapper{
-	overflow: hidden;
-	min-width: 1170px;
-}
+
 a{
 	text-decoration: none;
 }
@@ -28,6 +25,7 @@ a{
 	padding: 10px 0 15px;
 	display: block;
 	text-align: center;
+	transition:.5s;
 }
 .container{
 	width: 1170px;
@@ -43,7 +41,9 @@ header{
 	background-color: #edeff1;      
 	height: 148px;
 	position: fixed;
-	z-index: 9;
+	z-index: 10;
+	min-width:100%;
+	top:0;
 }
 header a, .news a{
 	color: #31353e;
