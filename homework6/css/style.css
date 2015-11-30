@@ -120,7 +120,7 @@ header a, .news a{
 .meals ul li:first-child, .news ul li:first-child{
 	margin-left: 0;
 }
-.meals ul li h3{
+.meals ul li h2{
 	font-family: 'Roboto Slab';
 	font-size: 30px;
 	margin-top: 28px;
@@ -153,7 +153,7 @@ header a, .news a{
 	text-align: center;
 	font-weight: 700;
 }
-.news h3 {
+.news h2 {
 	font-size: 24px;
 	padding: 0 20px 10px;
 	margin: 30px auto 0;
@@ -181,7 +181,7 @@ header a, .news a{
 	overflow: hidden;
 	background-size:cover;
 }
-.newsletter h2 {
+.newsletter h1 {
 	font-size: 30px;
 	margin: 75px auto 10px;
 	text-align: center;
