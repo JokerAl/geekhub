@@ -303,10 +303,10 @@ button.button {
 	background-color: rgb(215,93,14);
 	overflow: hidden;
 }
-.bottom-list .container>ul:first-child{
+.bottom-list .container>ul{
 	margin: 98px 0 84px;
 }
-.bottom-list ul li{
+.bottom-list ul{
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	width: 370px;
