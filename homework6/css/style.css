@@ -44,7 +44,6 @@ header{
 	height: 148px;
 	position: fixed;
 	z-index: 9;
-	width: 100%;
 }
 header a, .news a{
 	color: #31353e;
