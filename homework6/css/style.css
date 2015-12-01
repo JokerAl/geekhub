@@ -90,7 +90,7 @@ header a, .news a{
 }
 /*----------  Meals   ---------*/
 .meals{
-	background: url(../img/bg_content.png) no-repeat center black;
+	background: url(../img/bg_content.jpg) no-repeat center black;
 	color: white;
 	overflow: hidden;
 	background-size:cover;
@@ -176,7 +176,7 @@ header a, .news a{
 
 /*----------  Newsletter   ---------*/
 .newsletter{
-	background: url(../img/newsletter.png) no-repeat bottom rgb(132,80,23);
+	background: url(../img/newsletter.jpg) no-repeat bottom rgb(132,80,23);
 	color: rgb(255,255,255);
 	overflow: hidden;
 	background-size:cover;
@@ -319,10 +319,11 @@ button.button {
 }
 /*----------  Footer   ---------*/
 footer{
-	background: url(../img/footer.png) no-repeat bottom rgb(132,80,23);
+	background: url(../img/footer.jpg) no-repeat bottom rgb(132,80,23);
 	color: rgb(255,255,255);
 	overflow: hidden;
 	background-size:cover;
+	z-index: 0;
 }
 footer p{
 	text-align: center;
@@ -330,10 +331,10 @@ footer p{
 	font-weight: 300;
 	line-height: 24px;
 }
-footer p:first-child{
+footer p{
 	margin-top: 85px;
 }
-footer p:last-child{
+footer p{
 	margin-bottom: 243px;
 }
 footer a{
