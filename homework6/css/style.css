@@ -1,0 +1,346 @@
+@font-face {
+	font-family: 'proxima_novaregular';
+	src: url('../Font/proximanova-regular-webfont.eot');
+	src: url('../Font/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../Font/proximanova-regular-webfont.woff2') format('woff2'),
+	url('../Font/proximanova-regular-webfont.woff') format('woff'),
+	url('../Font/proximanova-regular-webfont.ttf') format('truetype'),
+	url('../Font/proximanova-regular-webfont.svg#proxima_novaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body{
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+.button{
+	width: 210px;
+	border-radius: 25px;
+	background-color: rgb(255,255,255);
+	padding: 10px 0 15px;
+	display: block;
+	text-align: center;
+	transition:.5s;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+/*----------  Header   ---------*/
+header{
+	background-color: #edeff1;      
+	height: 148px;
+	position: fixed;
+	z-index: 10;
+	min-width:100%;
+	top:0;
+}
+header a, .news a{
+	color: #31353e;
+}
+.main{
+	margin-top: 148px;
+}
+.logo{
+	float: left;
+	padding: 38px 0;    
+}
+.logo h1{
+	margin: 0;
+}
+.logo a{
+	font-size: 36px;
+	font-weight: bold;
+}
+.logo span{
+	font-size: 16px;
+	color: #dd4b2b;
+	letter-spacing: 1px;
+	padding-top: 8px;
+	display: block;
+}
+/*----------  Menu   ---------*/
+.menu ul li{
+	display: inline-block;
+}
+.menu a{
+	text-align: center;
+	padding: 12px 20px 15px;
+	font: 18px 'RobotoSlab' 400;
+}
+.menu{
+	float: right;
+	margin-top: 68px;
+
+}
+.menu li a:hover{
+	color: #edeff1;
+	background-color: #dd4b2b;
+	border-radius: 25px;
+}
+/*----------  Meals   ---------*/
+.meals{
+	background: url(../img/bg_content.jpg) no-repeat center black;
+	color: white;
+	overflow: hidden;
+	background-size:cover;
+}
+.meals h1{
+	font-size: 72px;
+	padding-top: 488px;
+	font-weight: 100;
+	text-align: center;
+}
+.title-meals  p{
+	text-align: center;
+	font-size: 30px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+.meals ul {
+	margin-top: 122px
+}
+.meals ul li, .news ul li{
+	display: inline-block;
+	width: 370px;
+	text-align: center;
+	margin-left: 25px;
+	vertical-align: top;
+}
+.meals ul li:first-child, .news ul li:first-child{
+	margin-left: 0;
+}
+.meals ul li h2{
+	font-family: 'Roboto Slab';
+	font-size: 30px;
+	margin-top: 28px;
+}
+.meals ul li p{
+	font-family: 'Roboto';
+	font-size: 15px;
+	margin-top: 22px;
+	line-height: 2em;
+	padding: 0 20px;
+}
+.meals a.button{
+	margin: 55px auto 130px;
+	color: #612316;
+	font-weight: 400;
+}
+.meals a.button:hover, .newsletter .button:hover, .news .button:hover{
+	color: rgb(255,255,255);
+	background-color: rgb(221,75,43);
+	background-size:cover;
+}
+/*----------  News   ---------*/
+.news{
+	background-color: rgb(237,239,241);
+	overflow: hidden;
+}
+.news h1{
+	margin: 82px auto 84px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+.news h2 {
+	font-size: 24px;
+	padding: 0 20px 10px;
+	margin: 30px auto 0;
+	font-weight: 700;
+}
+.news p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	line-height: 2em;
+	padding: 0 20px;
+	font-weight: 300;
+}
+.news a.button {
+	width: 175px;
+	font-size: 15px;
+	margin: 35px auto 85px;
+	color: rgb(49,53,62);
+}
+
+/*----------  Newsletter   ---------*/
+.newsletter{
+	background: url(../img/newsletter.jpg) no-repeat bottom rgb(132,80,23);
+	color: rgb(255,255,255);
+	overflow: hidden;
+	background-size:cover;
+}
+.newsletter h1 {
+	font-size: 30px;
+	margin: 75px auto 10px;
+	text-align: center;
+	font-weight: 700;
+}
+.newsletter p{  
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+	padding: 0 330px;
+	width: 536px;
+	text-align: center;
+}
+input[type=email] {
+	border: 1px solid rgb(255,255,255);
+	background: transparent;
+	border-radius: 25px;
+	padding: 10px 0 15px 30px;
+	width: 510px;
+	margin: 35px 0 95px 330px;
+	font-weight: 400;
+	outline: none;
+}
+input[type=email]::-webkit-input-placeholder {
+	color: rgb(255,255,255);
+}
+input[type=email]::-moz-placeholder {
+	color: rgb(255,255,255);
+}
+input[type=email]:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+input[type=email]:focus::-moz-placeholder {
+	color: transparent;
+}
+input[type=email]:focus:-moz-placeholder {
+	color: transparent;
+}
+input[type=email]:focus:-ms-input-placeholder {
+	color: transparent;
+}
+button.button {
+	color: rgb(92,35,22);
+	display: inline-block;
+	position: relative;
+	left: -214px;
+	border: 0;
+}
+/*----------  Content   ---------*/
+.content{
+	background-color: rgb(255,255,255);
+	overflow: hidden;
+}
+.content .container{
+	width: 1250px;
+}
+.content-text { 
+	width: 530px;
+}
+.content-text h3 {
+	font-size: 30px;
+	margin: 118px auto 0;
+	font-weight: 700;
+} 
+.content-text p {   
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 2em;
+	margin-top: 22px;
+}
+.content li{
+	display: inline-block;
+}
+.content li:nth-child(odd) .content-text{
+	float: left;
+	margin: 0 50px 0 60px;
+
+}
+.content li:nth-child(even) .content-text{
+	float: left;
+
+}
+.content li:nth-child(odd) .button{
+	margin-top: 48px;
+	background-color: rgb(221,75,43);
+	color: rgb(255,255,255)
+}
+.content li:nth-child(even) .button{
+	background-color: rgb(75,78,115);
+	margin-top: 48px;
+	color: rgb(255,255,255)
+}
+.content li:nth-child(odd) .button:hover{
+	color: rgb(45,0,0);
+	background-color: rgb(37,199,75);
+}
+.content li:nth-child(even) .button:hover{
+	color: rgb(45,0,0);
+	background-color: rgb(229,60,27);
+}
+.content li:nth-child(odd) .content-img{
+	width: 588px;
+	margin-top: 66px;
+	float: right;
+}
+.content li:nth-child(even) .content-img{
+	width: 588px;
+	margin-top: 66px;
+	float: left;
+	margin:0 45px 87px 0;
+	
+}
+
+/*----------  Bottom-lists   ---------*/
+.bottom-list{
+	background-color: rgb(215,93,14);
+	overflow: hidden;
+}
+.bottom-list .container>ul{
+	margin: 98px 0 84px;
+}
+.bottom-list ul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	width: 370px;
+	color: rgb(255,255,255);
+	font-weight: 400;
+	line-height: 2em;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+/*----------  Footer   ---------*/
+footer{
+	background: url(../img/footer.jpg) no-repeat bottom rgb(132,80,23);
+	color: rgb(255,255,255);
+	overflow: hidden;
+	background-size:cover;
+	z-index: 0;
+}
+footer p{
+	text-align: center;
+	font-family: 'proxima_novaregular';
+	font-weight: 300;
+	line-height: 24px;
+}
+footer p{
+	margin-top: 85px;
+}
+footer p{
+	margin-bottom: 243px;
+}
+footer a{
+	font-weight:700;
+	color: #ffffff;
+} 
+footer a:hover{
+	color: rgb(215,93,14);
+}
