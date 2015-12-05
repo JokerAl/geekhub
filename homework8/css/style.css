@@ -42,7 +42,7 @@ h1,h2{
 }
 /*----------  Header   ---------*/
 header{
-	background: url(../img/header.jpg) no-repeat center;
+	background: url(../img/Header.jpg) no-repeat center;
 	min-width:100%;
 	background-size: cover;
 	color: #ffffff;
