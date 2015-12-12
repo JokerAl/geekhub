@@ -3,8 +3,10 @@
 <head>
 	<title>Our first template</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="../css/reset.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/media.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="header-section">
@@ -16,33 +18,6 @@
 	</div>	
 	<div id="content-section">
 		<div class="main">
-			<div class="sidebar_left">
-				<div class="description">
-					<p class="dark_grey">A short description or a short information about author goes here.</p>
-					<img src="img/description.jpg" alt="description">
-				</div>
-				<div class="category">
-					<h3>Categories</h3>
-					<ul >
-						<li><a href="#">Lifestyle <span class="category_right grey">51</span></a></li>
-						<li><a href="#">Travel<span class="category_right grey">19</span></a></li>
-						<li><a href="#">My Home<span class="category_right grey">20</span></a></li>
-						<li><a href="#">Work<span class="category_right grey">23</span></a></li>
-						<li><a href="#">Family<span class="category_right grey">8</span></a></li>
-					</ul>
-					<h3>Pages</h3>
-					<ul>
-						<li><a href="#">About</a></li>	
-						<li><a href="#">Get In Touch</a></li>
-					</ul>
-					<h3>Search</h3>
-					<form method="GET" name="search" action="#">
-						<div>
-							<input id="search" type="text" name="form-search">
-						</div>
-					</form>
-				</div>
-			</div>
 			<div class="content">
 				<div class="news">
 					<div class="news_top">
@@ -120,8 +95,8 @@
 					</ul>
 				</div>
 			</div>
-			<div class="sidebar_right">
 
+			<div class="sidebar_right">
 				<ul class="in_line">
 					<li>
 						<a href="#">
@@ -138,9 +113,7 @@
 						<span class="grey">109 readers</span>
 					</li>
 				</ul>	
-
 				<div class="sb_img"><img src="img/right_img.jpg" alt="right_img"></div>
-
 				<ul class="sidebar_both">
 					<li><h3>Sidebar 160</h3>
 						Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
@@ -149,8 +122,35 @@
 						Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
 					</li>
 				</ul>
-
-
+			</div>
+			
+			
+			<div class="sidebar_left">
+				<div class="description">
+					<p class="dark_grey">A short description or a short information about author goes here.</p>
+					<img src="img/description.jpg" alt="description">
+				</div>
+				<div class="category">
+					<h3>Categories</h3>
+					<ul >
+						<li><a href="#">Lifestyle <span class="category_right grey">51</span></a></li>
+						<li><a href="#">Travel<span class="category_right grey">19</span></a></li>
+						<li><a href="#">My Home<span class="category_right grey">20</span></a></li>
+						<li><a href="#">Work<span class="category_right grey">23</span></a></li>
+						<li><a href="#">Family<span class="category_right grey">8</span></a></li>
+					</ul>
+					<h3>Pages</h3>
+					<ul>
+						<li><a href="#">About</a></li>	
+						<li><a href="#">Get In Touch</a></li>
+					</ul>
+					<h3>Search</h3>
+					<form method="GET" name="search" action="#">
+						<div>
+							<input id="search" type="text" name="form-search">
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>

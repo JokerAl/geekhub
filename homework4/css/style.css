@@ -3,9 +3,11 @@
 	font-family: 'VersaSansCon';
 	src: url(../Font/VersaSansCon-SemiBold.ttf);   
 }
-
-body {
-	font: 11px grey 'Tahoma' ;
+html{
+	font-size: 62.5%;
+}
+body {font: 1.1em grey 'Tahoma' ;
+		
 }
 a {
 	text-decoration: none;
@@ -15,6 +17,7 @@ a:hover{
 	color: #06A9B7;
 	transition: 0.1s linear;
 }
+img{max-width: 100%;}
 /*--------------------- header area --------------------*/
 #header-section{
 	width: 100%;
@@ -22,14 +25,13 @@ a:hover{
 }
 .header {
 	overflow: hidden;
-	padding: 30px 0 8px ; 
-	width: 1000px;
+	width: 960px;
 	margin: 20px auto 0;
 	padding: 0 20px;
 }
 .logo{
 	float: left;
-	font: 18px black 'VersaSansCon';
+	font: 1.8rem black 'VersaSansCon';
 }    
 /*--------------------- main --------------------*/
 #content-section{
@@ -41,16 +43,15 @@ a:hover{
 .main{
 	overflow: hidden;
 	margin: 0 auto;
-	width: 1000px;
+	width: 960px;
 	background: #f4f4f4;
 	padding: 0 20px;
 }
 h3{
-	font-size: 11px;
 	font-weight: bold;
 }
 h4{
-	font: 18px black 'VersaSansCon';
+	font: 1.8rem black 'VersaSansCon';
 	margin-bottom: 13px;
 }
 .grey {
@@ -70,6 +71,7 @@ h4{
 	width: 120px;
 	float: left;
 	margin-right: 20px;
+	overflow: hidden;
 }
 .description  {
 	margin-top: 20px;
@@ -107,7 +109,7 @@ input{
 }
 .content{
 	width: 500px;
-	float: left;
+	display: inline-block;
 	margin-right: 20px;
 }
 .cont_img2{
@@ -116,12 +118,12 @@ input{
 }
 .news h2{
 	float: left;
-	font: 24px black 'VersaSansCon';
+	font: 2.4rem black 'VersaSansCon';
 	margin-bottom: 13px;
 }
 .text_news{
 	margin: 26px 0 20px;
-	font: 12px black 'Tahoma';
+	font: 1.2rem black 'Tahoma';
 }
 .blog ul{
 	margin-top: 54px;
@@ -159,7 +161,7 @@ dt,dd{
 /*--------------------- sidebar right --------------------*/
 .sidebar_right{
 	width: 300px;
-	float: left;
+	float: right;
 }
 .in_line{
 	margin-top: 22px;x
@@ -232,7 +234,7 @@ dt,dd{
 	clear: both;
 	padding-bottom: 20px;
 	overflow: hidden;
-	width: 1000px;
+	width: 960px;
 	margin: 0 auto;
 }
 

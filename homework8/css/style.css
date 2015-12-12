@@ -1,4 +1,6 @@
-
+html{
+	font-size: 62.5%;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -15,7 +17,7 @@ a{
 	transition:.5s;
 	text-transform: uppercase;
 	border: 3px solid #39c9da;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
 }
 .button:hover{
@@ -58,27 +60,26 @@ header{
 .logo h1 a{
 	margin: 0;
 	color: #39c9da;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
 	text-transform:none; 
 }
 .logo h1 a span{
 	color: white;
 	display: inline;
-	font-size: 48px;
+	font-size: 4.8rem;
 	font-weight: 400;
 }
 /*----------  Menu   ---------*/
 nav ul li{
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 15px;
 }
 nav a{
 	display: block;
 	color: #ffffff;
 	padding: 10px 20px;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 700;
 	padding-right: 0;
 }
@@ -91,7 +92,7 @@ nav a:hover{
 }
 .head-title{
 	color: white;
-	font-size: 33px;
+	font-size: 3.3em;
 	font-weight: 700;
 	line-height: 45px;
 	margin-left: 25%;
@@ -115,13 +116,13 @@ nav a:hover{
 }
 .title-about h1{
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 45px;
 }
 .title-about p{
 	color: #a8a8a8;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 	margin-top: 22px;
@@ -144,7 +145,7 @@ nav a:hover{
 }
 .about-inf h2{
 	color: #504f50;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 700;
 	line-height: 20px;
 }
@@ -156,7 +157,7 @@ nav a:hover{
 }
 .about-inf p{
 	color: #a8a8a8;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 	margin-bottom: 36px;
@@ -173,13 +174,13 @@ nav a:hover{
 }
 .portfolio-title h1{
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 14px;
 }
 .portfolio-title p{
 	color: #a8a8a8;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 	padding:23px 0 46px;
@@ -200,9 +201,11 @@ nav a:hover{
 	background-color: #ffffff;
 	border: 1px solid #e8e8e8;
 }
-.image{
+.image img{
 	max-width: 100%;
-	position:relative; 
+}
+.image{
+position:relative; 
 }
 .description h2{
 	display: inline-block;
@@ -226,7 +229,8 @@ nav a:hover{
 	text-align: center;
 	opacity: 0;
 }
-.link a{ display: inline-block;
+.link a{ 
+	display: inline-block;
 	margin-top: 35%;
 	left: 0;
 	text-align: center;
@@ -253,13 +257,13 @@ nav a:hover{
 }
 .services-title h1{
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 45px;
 }
 .services-title p{
 	color: #a8a8a8;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 	padding-bottom: 46px;
@@ -268,7 +272,7 @@ nav a:hover{
 	width: 25%;
 	float: left;
 	padding: 0 14px;
-	max-width: 262px;
+	box-sizing:border-box;
 }
 article{
 	border: 1px solid #e2e2e2;
@@ -279,13 +283,13 @@ article{
 }
 article span{
 	color: #39c9da;
-	font-size: 33px;
+	font-size: 3.3em;
 	font-weight: 400;
 	line-height: 45px;
 }
 .button2{
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 	padding: 12px 30px;
@@ -304,20 +308,20 @@ article span{
 }
 article p{
 	color: #504f50;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 }
 article  .fa{
 	display: inline-block;
 	font-weight: 400;
-	font-size: 33px;
+	font-size: 3.3em;
 	padding: 25px;
 	color: #39c9da;
 }
 article h2 {
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 14px;
 }
@@ -356,13 +360,13 @@ article:hover .button2{
 }
 .contact-title h1{
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 45px;
 }
 .contact-title p{
 	color: #a8a8a8;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 	padding-bottom: 46px;
@@ -376,7 +380,7 @@ article:hover .button2{
 .contact-text .line,
 .contact-text p{
 	margin-bottom: 20px;
-	font-size: 14px;
+	font-size: 1.4em;
 	line-height: 20px;
 }
 .contact-text h2{
@@ -423,7 +427,7 @@ footer{
 	text-align: center;
 	color: #ffffff;
 	padding: 20px 0 15px;
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
 }

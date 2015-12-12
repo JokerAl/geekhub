@@ -1,0 +1,97 @@
+@media screen and (min-width: 320px) and (max-width: 519px){
+	body{
+		font-size: 130%;
+	}
+	#header-section, #content-section, #footer-section{
+		width:88% 
+	}
+	.sidebar_left, .sidebar_right, .content{
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 520px) and (max-width: 669px){
+	body{
+		font-size: 145%;
+	}
+	
+	#header-section, #content-section, #footer-section{
+		width:94% 
+	}
+	.content{
+		float: none;
+		width: 100%;
+	}
+	.sidebar_right{
+
+		width: 65%;
+	}
+	.sidebar_left{
+		width:30%;
+	}
+}
+
+@media screen and (min-width: 670px) and (max-width: 1000px){
+	body{
+		font-size: 120%;
+	}
+	.content{
+		width: 72%;
+		float: right;
+	}
+		#header-section, #content-section, #footer-section{
+		width:94% 
+	}
+
+	.sidebar_right{
+
+		width: 50%;
+		float: left;
+		margin-left: 25%;
+	}
+	.sidebar_left{
+		width:22%;
+		float: left;
+		position: absolute;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 1000px){
+	.header, .footer, .main{
+		width: 100%;
+
+	}
+	.content img, .sb_img img{
+		width: 100%;
+	}
+	.logo, .footer{
+		float: none;
+		text-align: center;
+	}
+	.news{
+		width: 100%;
+	}
+	.cont_img2{
+		float: none;
+		margin-left:0;
+		width: 80%; 
+	}
+
+	.blog ul li{
+		margin-top: 9%;
+	}
+	.blog .teg {
+		margin-top: 2%;
+	}
+	.in_line li{
+		width: 45%;
+	}
+
+	.sidebar_right .sidebar_both li{
+		float: none;
+		width: 100%;
+	}
+	.footer{
+		margin-top: 8%;
+	}
+}

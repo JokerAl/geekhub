@@ -13,6 +13,7 @@
 
 body{
 	font-family: 'Roboto Slab', sans-serif;
+	font-size: 62.5%;
 }
 
 a{
@@ -23,12 +24,13 @@ a{
 	border-radius: 25px;
 	background-color: rgb(255,255,255);
 	padding: 10px 0 15px;
+	font-size: 1.8em;
 	display: block;
 	text-align: center;
 	transition:.5s;
 }
 .container{
-	width: 1170px;
+	width: 1250px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -59,11 +61,11 @@ header a, .news a{
 	margin: 0;
 }
 .logo a{
-	font-size: 36px;
+	font-size: 3.6em;
 	font-weight: bold;
 }
 .logo span{
-	font-size: 16px;
+	font-size: 1.6em;
 	color: #dd4b2b;
 	letter-spacing: 1px;
 	padding-top: 8px;
@@ -76,7 +78,7 @@ header a, .news a{
 .menu a{
 	text-align: center;
 	padding: 12px 20px 15px;
-	font: 18px 'RobotoSlab' 400;
+	font: 1.8em 'RobotoSlab';
 }
 .menu{
 	float: right;
@@ -96,14 +98,14 @@ header a, .news a{
 	background-size:cover;
 }
 .meals h1{
-	font-size: 72px;
+	font-size: 7.2em;
 	padding-top: 488px;
 	font-weight: 100;
 	text-align: center;
 }
 .title-meals  p{
 	text-align: center;
-	font-size: 30px;
+	font-size: 3em;
 	margin: 0 auto;
 	font-weight: 300;
 }
@@ -122,12 +124,12 @@ header a, .news a{
 }
 .meals ul li h2{
 	font-family: 'Roboto Slab';
-	font-size: 30px;
+	font-size: 3.0em;
 	margin-top: 28px;
 }
 .meals ul li p{
 	font-family: 'Roboto';
-	font-size: 15px;
+	font-size: 1.5em;
 	margin-top: 22px;
 	line-height: 2em;
 	padding: 0 20px;
@@ -149,12 +151,12 @@ header a, .news a{
 }
 .news h1{
 	margin: 82px auto 84px;
-	font-size: 30px;
+	font-size: 3.0em;
 	text-align: center;
 	font-weight: 700;
 }
 .news h2 {
-	font-size: 24px;
+	font-size: 2.4em;
 	padding: 0 20px 10px;
 	margin: 30px auto 0;
 	font-weight: 700;
@@ -162,14 +164,17 @@ header a, .news a{
 .news p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size: 15px;
+	font-size: 1.5em;
 	line-height: 2em;
 	padding: 0 20px;
 	font-weight: 300;
 }
+.news img{
+	max-width: 100%;
+}
 .news a.button {
 	width: 175px;
-	font-size: 15px;
+	font-size: 1.5em;
 	margin: 35px auto 85px;
 	color: rgb(49,53,62);
 }
@@ -182,7 +187,7 @@ header a, .news a{
 	background-size:cover;
 }
 .newsletter h1 {
-	font-size: 30px;
+	font-size: 3em;
 	margin: 75px auto 10px;
 	text-align: center;
 	font-weight: 700;
@@ -190,7 +195,7 @@ header a, .news a{
 .newsletter p{  
 	font-family: 'Roboto', sans-serif;
 	color: white;
-	font-size: 15px;
+	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 24px;
 	padding: 0 330px;
@@ -237,21 +242,25 @@ button.button {
 	background-color: rgb(255,255,255);
 	overflow: hidden;
 }
-.content .container{
-	width: 1250px;
+.content ul {
+	margin-bottom: 84px;
 }
 .content-text { 
 	width: 530px;
+	margin: 0 50px;
+}
+.content-img { 
+	width: 588px;
 }
 .content-text h3 {
-	font-size: 30px;
+	font-size: 3em;
 	margin: 118px auto 0;
 	font-weight: 700;
 } 
 .content-text p {   
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 1.5em;
 	line-height: 2em;
 	margin-top: 22px;
 }
@@ -260,12 +269,9 @@ button.button {
 }
 .content li:nth-child(odd) .content-text{
 	float: left;
-	margin: 0 50px 0 60px;
-
 }
 .content li:nth-child(even) .content-text{
 	float: left;
-
 }
 .content li:nth-child(odd) .button{
 	margin-top: 48px;
@@ -286,16 +292,15 @@ button.button {
 	background-color: rgb(229,60,27);
 }
 .content li:nth-child(odd) .content-img{
-	width: 588px;
 	margin-top: 66px;
 	float: right;
 }
 .content li:nth-child(even) .content-img{
-	width: 588px;
 	margin-top: 66px;
 	float: left;
-	margin:0 45px 87px 0;
-	
+}
+.content-img img{
+	max-width: 100%
 }
 
 /*----------  Bottom-lists   ---------*/
@@ -308,7 +313,7 @@ button.button {
 }
 .bottom-list ul{
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 1.8em;
 	width: 370px;
 	color: rgb(255,255,255);
 	font-weight: 400;
@@ -329,12 +334,11 @@ footer p{
 	text-align: center;
 	font-family: 'proxima_novaregular';
 	font-weight: 300;
+	font-size: 1.8em;
 	line-height: 24px;
 }
 footer p{
 	margin-top: 85px;
-}
-footer p{
 	margin-bottom: 243px;
 }
 footer a{
