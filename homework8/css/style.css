@@ -44,7 +44,7 @@ h1,h2{
 }
 /*----------  Header   ---------*/
 header{
-	background: url(../img/header.jpg) no-repeat center;
+	background: url(../img/Header.jpg) no-repeat center;
 	min-width:100%;
 	background-size: cover;
 	color: #ffffff;
@@ -140,7 +140,7 @@ nav a:hover{
 .about-inf{
 	width: 49%;
 	left: 51%;
-	float: left;
+	overflow: hidden;
 	padding-left: 1%;
 }
 .about-inf h2{
@@ -392,7 +392,7 @@ article:hover .button2{
 }
 .contact-form{
 	width: 49%;
-	float: left;
+	overflow: hidden;
 	padding-left: 1%;
 }
 .form-name {
