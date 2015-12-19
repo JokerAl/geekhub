@@ -1,0 +1,59 @@
+@media screen and (min-width: 320px) and (max-width: 479px){
+	header nav{
+	display: none;
+	}
+	.fork-price .fork-price-item {
+	width: 90%;
+	}
+	section{
+		padding: 30% 0;
+	}
+	 .button {
+	padding: 16px 14px;
+	}
+
+	.fork-app h1 {
+		font-size: 300%; 
+	}
+	.fork-edit h2{
+		font-size: 200%;
+	}
+	.fork-get h2{
+		font-size: 170%;
+		text-align: center; 
+	}
+	.fork-price h2{
+		font-size: 200%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 979px){
+	header nav{
+	display: none;
+	}
+	
+	.fork-price .fork-price-item {
+	width: 47%;
+	}
+	header .button{
+		font-size: 100%;
+	}
+	.fork-app h1 {
+		font-size: 400%; 
+	}
+	.fork-edit h2{
+		font-size: 300%;
+	}
+	.fork-get h2{
+		font-size: 270%;
+		text-align: center; 
+	}
+}
+@media screen and (min-width: 980px) and (max-width: 1200px){
+	html{
+		font-size: 55%;
+	}
+	header .button{
+		font-size: 100%;
+	}
+}
