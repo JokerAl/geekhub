@@ -40,10 +40,6 @@
 		width: 90%;
 		box-sizing: content-box;
 	}
-	.contact-text, .contact-form{
-		width: 100%;
-	}
-
 }
 
 @media screen and (min-width: 480px) and (max-width: 979px){
@@ -90,10 +86,6 @@ header .head-title{
 		width: 46%;
 		box-sizing: content-box;
 	}
-	.contact-text, .contact-form{
-		width: 100%;
-	}
-
 }
 @media screen and (min-width: 768px) and (max-width: 979px){
 	.about-img, .about-inf {
@@ -115,6 +107,10 @@ header .head-title{
 		width: 23%;
 		box-sizing: content-box;
 	}
-	
-
+}
+@media screen and (min-width: 320px) and (max-width: 1170px){
+	.contact-text, .contact-form{
+		width: 96%;
+		margin: 0 2%;
+	}
 }

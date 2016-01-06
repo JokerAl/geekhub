@@ -185,6 +185,7 @@ header a, .news a{
 	color: rgb(255,255,255);
 	overflow: hidden;
 	background-size:cover;
+	padding: 80px 0;
 }
 .newsletter h1 {
 	font-size: 3em;
@@ -198,20 +199,56 @@ header a, .news a{
 	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 24px;
-	padding: 0 330px;
-	width: 536px;
+	margin: 0 auto;
+	padding: 0 0 44px;
 	text-align: center;
 }
-input[type=email] {
-	border: 1px solid rgb(255,255,255);
-	background: transparent;
-	border-radius: 25px;
-	padding: 10px 0 15px 30px;
+.newsletter form {
 	width: 510px;
-	margin: 35px 0 95px 330px;
-	font-weight: 400;
-	outline: none;
+	height: 52px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid rgba(255,255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
+	-webkit-border-radius: 27px;
+	        border-radius: 27px;
+	z-index: 1;
 }
+
+
+input[type=email] {
+	background: transparent;
+	border: none;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	padding: 15px 0;
+	width: 290px;
+}
+
+button[type=submit] {
+	font-family: RobotoSlab;
+	font-size: 1.8em;
+	font-weight: 400;
+	line-height: 2rem;
+	background: white;
+	border: none;
+	color: #612316;
+    border-radius: 27px;
+    padding: 11px 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button[type=submit]:hover {
+	background-color: #dd4b2b;
+	cursor: pointer;
+}
+
+
 input[type=email]::-webkit-input-placeholder {
 	color: rgb(255,255,255);
 }
@@ -229,13 +266,6 @@ input[type=email]:focus:-moz-placeholder {
 }
 input[type=email]:focus:-ms-input-placeholder {
 	color: transparent;
-}
-button.button {
-	color: rgb(92,35,22);
-	display: inline-block;
-	position: relative;
-	left: -214px;
-	border: 0;
 }
 /*----------  Content   ---------*/
 .content{

@@ -130,11 +130,24 @@ header .button {
     color: #323232;
     padding: 0 10%;
 }
-.watch {
-  max-width: 100%;
-  display: block;
-  width: 365px;
-  margin: 0 auto;
+.fork-edit ul li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+.fork-edit ul a {
+    padding: 4px 6px 4px 2px;
+    border: 1px solid grey;
+    font-weight: 600;
+    border-radius: 3px;
+    color: black;
+    
+}
+.fork-edit ul span {
+    margin-right: 10px;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 4px 10px;
+    border-right: 1px solid grey;
 }
 /**/
 .fork-get {
@@ -178,13 +191,19 @@ header .button {
   box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);
   border-radius: 6px;
 }
+.visible_1{
+    display: none !important;
+  }
+.visible_2{
+  display: block !important;
+}
 /**/
 .fork-stev {
   position: relative;
   padding-top: 130px;
   text-align: center;
 }
-.fork-stev img {
+.content-slide img {
   display: inline-block;
   border-radius: 50%;
   margin-right: 24px;
@@ -217,7 +236,7 @@ header .button {
 }
 
 .fork-stev p {
-  padding: 2vh 15vw;
+  padding: 2vh 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   color: #333333;
@@ -235,6 +254,28 @@ header .button {
   color: #474747;
   opacity: 0.5;
   transition: all 0.2s linear;
+}
+.content-slide{
+  margin: 0 auto;
+  width: 78%;
+  padding: 40px 0 60px;
+  border-bottom: 1px solid grey;
+}
+.arrow-slide img:first-child {
+  left: 0;
+}
+.arrow-slide img:last-child {
+  right: 0;
+}
+.arrow-slide img {
+    position: absolute;
+    top: 55%;
+    padding: 0;
+}
+.wrapper-fork{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
 }
 /**/
 .social-networks {

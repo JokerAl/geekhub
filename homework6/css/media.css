@@ -3,7 +3,7 @@
 		font-size: 50%;
 	}
 	header{
-		height: 25%;
+		height: 13%;
 		text-align: center;
 	}
 	.logo{
@@ -22,7 +22,18 @@
 	.bottom-list .container>ul {
     margin: 10% 0 10%;
     width: 100%;
-}
+	}
+	.newsletter form {
+		width:100%;
+	}
+	.newsletter input{
+		width: 50%;
+	}
+	.newsletter button{
+		width: 40%;
+		padding: 11px 40px;
+	}
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px){
@@ -49,6 +60,16 @@
 	.bottom-list .container>ul {
     width: 32%;
     }
+    .newsletter form {
+		width:70%;
+	}
+    .newsletter input{
+		width: 50%;
+	}
+	.newsletter button{
+		width: 40%;
+		padding: 10px 32px;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 1023px){
 	.meals h1{
@@ -58,8 +79,6 @@
 		width: 100%;
 		padding: 0;
 	}
-	
-	
 	.main{
 		margin-top: 16%;
 	}
@@ -80,20 +99,9 @@
 	.news a.button{
 		margin:5% auto 10%; 
 	}
-	.newsletter p{
-		padding: 0 10%;
-		width: 80%;
-	}
-	.newsletter input{
-		width: 70%;
-		margin: 5% 10%;
-	}
-	.newsletter button{
-		width: 40%;
-		left: 0;
-		margin: 0 30% 5%;
-	}
-	 .content-text, .content-img {
+	
+	
+	.content-text, .content-img {
 		width: 90%;
 		margin: 5% 5%;
 		text-align: center;
@@ -117,8 +125,11 @@ footer p{
 	body{
 		font-size: 70%;
 	}
+	.logo{
+		margin-left: 2%;
+	}
 	.menu a{
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 	.title-meals{
 		font-size: 50%;
@@ -128,16 +139,15 @@ footer p{
 		margin-left: 0;
 		margin-top: 5%;
 	}
-	.newsletter input{
-		width: 40%;
-		margin: 5% 26%;
+	.newsletter form {
+		width:70%;
+	}
+    .newsletter input{
+		width: 50%;
 	}
 	.newsletter button{
-		width: 20%;
-		top: -30px;
-		left: 19%;
-		margin: 0 30% 5%;
-		padding: 8px 0 10px;
+		width: 40%;
+		padding: 10px 60px;
 	}
 	.bottom-list .container>ul {
     width: 33%;
@@ -163,7 +173,7 @@ footer p{
 	}
 	.content-text, .content-img {
 		width: 45%;
-		margin: 5% 0 5%;
+		margin:0 2% 0 2%;
 	}
 	.bottom-list .container>ul {
     width: 33%;

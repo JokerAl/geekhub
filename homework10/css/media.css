@@ -13,17 +13,23 @@
 	}
 
 	.fork-app h1 {
-		font-size: 300%; 
+		font-size: 3rem; 
 	}
 	.fork-edit h2{
-		font-size: 200%;
+		font-size: 2rem ;
 	}
 	.fork-get h2{
-		font-size: 170%;
-		text-align: center; 
+		font-size: 4rem;
+		text-align: center;
 	}
 	.fork-price h2{
 		font-size: 200%;
+	}
+	.visible_1{
+		display: block !important;
+	}
+	.visible_2{
+		display: none !important;
 	}
 }
 
@@ -47,6 +53,12 @@
 	.fork-get h2{
 		font-size: 270%;
 		text-align: center; 
+	}
+	.visible_1{
+		display: block !important;
+	}
+	.visible_2{
+		display: none !important;
 	}
 }
 @media screen and (min-width: 980px) and (max-width: 1200px){

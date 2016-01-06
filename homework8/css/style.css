@@ -42,6 +42,15 @@ ul{
 h1,h2{
 	text-transform: uppercase;
 }
+.about-inf h2:after, .contact-text h2:first-child:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #39c9da;
+    width: 16%;
+    height: 2px;
+}
 /*----------  Header   ---------*/
 header{
 	background: url(../img/Header.jpg) no-repeat center;
@@ -147,13 +156,9 @@ nav a:hover{
 	color: #504f50;
 	font-size: 1.4em;
 	font-weight: 700;
-	line-height: 20px;
-}
-.line{
-	width: 99px;
-	height: 2px;
-	background-color: #39c9da;
-	margin: 22px 0 29px;
+	line-height: 40px;
+	position: relative;
+	margin-bottom: 20px;
 }
 .about-inf p{
 	color: #a8a8a8;
@@ -281,6 +286,11 @@ article{
 	padding: 0 20px;
 	text-align: center;
 }
+article h2{
+	position: relative;
+	line-height: 40px;
+}
+
 article span{
 	color: #39c9da;
 	font-size: 3.3em;
@@ -300,17 +310,12 @@ article span{
 	text-align: center;
 	display: inline-block;
 }
-.line2{
-	width: 74px;
-	height: 1px;
-	background-color: #c2c2c2;
-	margin: 14px auto 33px;
-}
 article p{
 	color: #504f50;
 	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 20px;
+	margin: 30px 0 20px;
 }
 article  .fa{
 	display: inline-block;
@@ -323,7 +328,17 @@ article h2 {
 	color: #504f50;
 	font-size: 2em;
 	font-weight: 700;
-	line-height: 14px;
+	line-height: 60px;
+}
+article h2:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    width: 30%;
+    height: 1px;
+    background-color: #c2c2c2;
+    margin: 0 auto;
 }
 article:hover,
 article:hover h2,
@@ -385,6 +400,8 @@ article:hover .button2{
 }
 .contact-text h2{
 	font-weight: 700;
+	line-height: 40px;
+	position: relative;
 }
 .contact-text p{
 	font-weight: 400;
