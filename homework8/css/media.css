@@ -1,0 +1,116 @@
+@media screen and (min-width: 320px) and (max-width: 479px){
+	header .head-title{
+		font-size: 2em;
+		margin-top: 20%;
+	}
+	header .logo{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	header .button{
+		font-size: 1em;
+	}
+	.container{
+		width: 100%;
+		padding:0 ;
+	}
+	nav{
+		display: none;
+	}
+	.button{
+		padding: 5% 10%;
+		font-size: 1.4em;
+	}
+	.services, .contact, .portfolio, .about-us{
+		padding-top: 1%;
+	}
+	.about-img, .about-inf{
+		width: 100%;
+	}
+	.portfolio-content ul li {
+    width: 100%;
+    }
+	.portfolio-content {
+     margin: 0; 
+	}
+	.services-page {
+		width: 100%;
+		padding: 0 5%;
+		width: 90%;
+		box-sizing: content-box;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 979px){
+
+header .head-title{
+		font-size: 2em;
+		margin-top: 20%;
+	}
+	header .logo{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	header .button{
+		font-size: 1em;
+	}
+	.container{
+		max-width: 100%;
+		padding:0 ;
+	}
+	nav {
+		text-align: center;
+	}
+	.button{
+		padding: 5% 10%;
+		font-size: 1.4em;
+	}
+	.services, .contact, .portfolio, .about-us{
+		padding-top: 1%;
+	}
+	.about-img, .about-inf{
+		width: 100%;
+		margin-top: 2%;
+	}
+	.portfolio-content ul li {
+    width: 48%;
+    padding: 0 1%;
+    }
+	.portfolio-content {
+     margin: 0; 
+	}
+	.services-page {
+		padding: 0 2%;
+		width: 46%;
+		box-sizing: content-box;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 979px){
+	.about-img, .about-inf {
+     width: 48%; 
+	}
+}
+@media screen and (min-width: 980px) and (max-width: 1170px){
+	.container{
+		max-width: 100%;
+		padding:0 ;
+	}
+	.portfolio-content ul li {
+    width: 31%;
+    padding: 0 1%;
+    }	
+		
+	.services-page {
+		padding: 0 1%;
+		width: 23%;
+		box-sizing: content-box;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 1170px){
+	.contact-text, .contact-form{
+		width: 96%;
+		margin: 0 2%;
+	}
+}
