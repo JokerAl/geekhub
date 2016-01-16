@@ -1,0 +1,24 @@
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    -#{$prefix}-#{$property}: $value;
+  }
+
+  #{$property}: $value;
+}
+@mixin par {
+  font: {
+    size: 2.2rem;
+  }
+  color: white;
+}
+
+@mixin h1 {
+  font: {
+
+    size: 3rem;
+    weight: 300;
+  }
+  line-height: 4rem;
+  text-transform: uppercase;
+  color: #333;
+}
