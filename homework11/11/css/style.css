@@ -1,0 +1,345 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: inherit;
+    text-decoration: none; }
+
+.container {
+  max-width: 960px; }
+
+ul li {
+  display: inline-block; }
+
+.title-block {
+  width: 90%;
+  max-width: 554px;
+  margin: 0 auto 110px; }
+  .title-block h1 {
+    color: #333;
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding-top: 58px; }
+  .title-block p, .title-block #about-us .about-item .fa, #about-us .about-item .title-block .fa, .title-block #feature .list p span, #feature .list p .title-block span {
+    color: #999;
+    font-size: 1.6rem; }
+
+#home {
+  background: url(../img/home-fon.jpg) center no-repeat;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding: 20px 0 70px;
+  color: white; }
+  #home .nav {
+    font-size: 1.6rem; }
+    #home .nav a {
+      border: 1px solid transparent; }
+      #home .nav a:hover, #home .nav a:active, #home .nav a:focus {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        border-radius: 4px; }
+  #home .icon-bar {
+    background: white; }
+  #home .main {
+    line-height: 1.5; }
+    #home .main h1 {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 3.4rem;
+      font-weight: 700;
+      padding-bottom: 22px; }
+    #home .main p, #home .main #about-us .about-item .fa, #about-us .about-item #home .main .fa, #home .main #feature .list p span, #feature .list p #home .main span {
+      max-width: 560px;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      margin: 0 auto; }
+  #home .carousel {
+    margin: 24vh 0 10vh;
+    background-color: transparent; }
+  #home .carousel .item {
+    background-color: transparent; }
+
+.firm {
+  padding: 40px 0 48px;
+  background-color: #f0f0f0; }
+  .firm li {
+    padding: 10px 25px; }
+
+#about-us {
+  padding: 5vh 0; }
+  #about-us .about-item {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 30px 17px;
+    margin-bottom: 50px; }
+    #about-us .about-item > div, #about-us #pricing .price-item .about-item > .dolar, #pricing .price-item #about-us .about-item > .dolar {
+      padding-left: 24px;
+      overflow: hidden; }
+    #about-us .about-item h2 {
+      margin: 0;
+      color: #39c;
+      font-size: 1.6rem;
+      padding-bottom: 16px; }
+    #about-us .about-item p, #about-us .about-item .fa, #about-us .about-item #feature .list p span, #feature .list p #about-us .about-item span {
+      color: #ccc;
+      font-size: 16px; }
+    #about-us .about-item .fa {
+      font-size: 5rem; }
+    #about-us .about-item:hover, #about-us .about-item.active {
+      background-color: #f7f7f7; }
+      #about-us .about-item:hover p, #about-us .about-item:hover .fa, #about-us .about-item:hover #feature .list p span, #feature .list p #about-us .about-item:hover span, #about-us .about-item.active p, #about-us .about-item.active .fa, #about-us .about-item.active #feature .list p span, #feature .list p #about-us .about-item.active span {
+        color: #666; }
+      #about-us .about-item:hover .fa, #about-us .about-item.active .fa {
+        color: #39c; }
+
+#product {
+  padding: 0 0 100px;
+  background-color: #f0f0f0; }
+  #product .stats {
+    overflow: hidden; }
+    #product .stats li {
+      padding: 0;
+      border: 1px solid grey; }
+      #product .stats li:hover, #product .stats li.active {
+        background-color: #f5f5f5; }
+        #product .stats li:hover div, #product .stats li:hover #pricing .price-item .dolar, #pricing .price-item #product .stats li:hover .dolar, #product .stats li.active div, #product .stats li.active #pricing .price-item .dolar, #pricing .price-item #product .stats li.active .dolar {
+          color: #333; }
+        #product .stats li:hover .fa, #product .stats li.active .fa {
+          color: #2ea8fa; }
+    #product .stats .fa {
+      color: #929292;
+      font-size: 7rem;
+      padding: 32px 0 54px; }
+    #product .stats div, #product .stats #pricing .price-item .dolar, #pricing .price-item #product .stats .dolar {
+      color: #999;
+      font-size: 2.2rem; }
+    #product .stats span {
+      color: #0cf;
+      font-size: 5.2rem;
+      font-weight: 300;
+      padding: 18px 0 22px;
+      display: block; }
+  #product .title-block {
+    margin: 100px auto 60px; }
+  #product .category {
+    margin-bottom: 48px; }
+    #product .category a {
+      color: #999;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      padding: 12px 22px;
+      border: 2px solid #999;
+      display: block;
+      margin: 0 5px 20px; }
+      #product .category a:hover {
+        color: white;
+        background-color: #33afe5;
+        border: 2px solid #33afe5; }
+    #product .category .active a {
+      color: white;
+      background-color: #33afe5;
+      border: 2px solid #33afe5; }
+  #product .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    background-color: rgba(51, 175, 229, 0.9);
+    text-align: center;
+    opacity: 0;
+    padding: 26% 0; }
+  #product .variant {
+    padding: 0;
+    margin-bottom: 20px; }
+    #product .variant:hover .overlay {
+      opacity: 1; }
+    #product .variant a {
+      color: white;
+      font-size: 1.6rem; }
+    #product .variant span {
+      display: block;
+      font-size: 1.4rem; }
+
+#pricing {
+  padding: 4vh 0 9vh; }
+  #pricing .price-item {
+    max-width: 320px;
+    position: relative;
+    border: 1px solid #ccc;
+    margin: 0 auto 20px; }
+    #pricing .price-item img {
+      position: absolute;
+      right: 0; }
+    #pricing .price-item h2 {
+      margin-top: 44px;
+      color: red;
+      font-size: 2.2rem;
+      font-weight: 700; }
+    #pricing .price-item div, #pricing .price-item .dolar {
+      margin: 26px 0 30px;
+      color: black;
+      font-size: 3rem;
+      font-weight: 700; }
+    #pricing .price-item .dolar {
+      font-size: 1.8rem; }
+    #pricing .price-item .month {
+      color: black;
+      font-size: 1.2rem;
+      font-weight: 400; }
+    #pricing .price-item li {
+      display: block;
+      color: #333;
+      font-size: 1.4rem;
+      line-height: 4rem;
+      border-bottom: 1px solid grey; }
+      #pricing .price-item li:first-child {
+        border-top: 1px solid grey; }
+    #pricing .price-item a {
+      background-color: white;
+      border: 1px solid #333;
+      width: 90px;
+      display: block;
+      margin: 30px auto;
+      color: #333;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 10px 0; }
+      #pricing .price-item a:hover {
+        color: white;
+        background-color: #2ea8fa; }
+
+#feature {
+  padding: 4vh 0 11vh;
+  background-color: #33afe5; }
+  #feature .title-block p, #feature .title-block #about-us .about-item .fa, #about-us .about-item #feature .title-block .fa, #feature .title-block .list p span, #feature .list p .title-block span, #feature .title-block h1 {
+    color: white; }
+  #feature .list {
+    border-radius: 4px;
+    padding: 42px 28px 22px 40px;
+    background-color: #FFF;
+    max-width: 30%;
+    margin: 0 1% 20px;
+    display: inline-block; }
+    #feature .list p, #feature .list #about-us .about-item .fa, #about-us .about-item #feature .list .fa, #feature .list p span {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      color: #666;
+      margin-bottom: 30px; }
+      #feature .list p span, #feature .list #about-us .about-item .fa span, #about-us .about-item #feature .list .fa span {
+        color: #39c; }
+  #feature .autor {
+    overflow: hidden; }
+    #feature .autor img {
+      padding-right: 12px; }
+    #feature .autor span {
+      color: #39c;
+      font-size: 1.6rem; }
+    #feature .autor div, #feature .autor #pricing .price-item .dolar, #pricing .price-item #feature .autor .dolar {
+      color: #c2c5c5;
+      font-size: 1.3rem; }
+
+#blok {
+  background-color: black;
+  padding: 40px 0 36px; }
+  #blok p, #blok #about-us .about-item .fa, #about-us .about-item #blok .fa, #blok #feature .list p span, #feature .list p #blok span {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300; }
+  #blok a {
+    background-color: #0cf;
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+    border: none;
+    padding: 18px 12px;
+    display: block; }
+    #blok a:hover {
+      color: white; }
+
+#contact {
+  padding-top: 9%; }
+  #contact li {
+    display: block;
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+    #contact li input, #contact li textarea {
+      width: 100%;
+      border: none;
+      padding: 20px 26px;
+      color: #999;
+      font-size: 1.4rem;
+      font-weight: 700; }
+  #contact button {
+    background-color: #33afe5;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 20px 42px;
+    margin: 34px 0 100px; }
+  #contact .map {
+    position: relative; }
+    #contact .map .name-map {
+      background-color: rgba(51, 175, 229, 0.8);
+      position: absolute;
+      color: white;
+      font-size: 1.8rem;
+      width: 100%;
+      bottom: 40px;
+      padding: 21px; }
+
+footer {
+  padding: 5vh 0 8vh;
+  color: #666;
+  font-size: 1.8rem; }
+  footer span {
+    display: inline-block;
+    padding: 20px 0; }
+  footer p a:hover, footer #about-us .about-item .fa a:hover, #about-us .about-item footer .fa a:hover, footer #feature .list p span a:hover, #feature .list p footer span a:hover {
+    text-decoration: underline; }
+  footer .fa {
+    color: white;
+    font-size: 2.8rem;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #2ea8fa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; }
+    footer .fa:hover {
+      color: white; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html {
+    font-size: 56%; }
+  .navbar {
+    display: none; }
+  .firm ul li,
+  #feature .list {
+    display: block;
+    max-width: 100%; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 62.5%; }
+  #feature .list {
+    max-width: 100%;
+    display: block; } }
