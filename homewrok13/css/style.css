@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "arial";
+  font-weight: 900;
+  width: 100%;
+  margin: 0 auto;
+}
+div{
+  width: 500px;
+  text-align: center;
+  margin: 10vh auto;
+  font-size: 12rem;
+  color: rgb(0, 197, 232);
+  padding: 5px 0;
+  border-radius: 20px;
+  border: 15px solid rgb(245, 110, 0);
+  background: #000000;
+
+  }
