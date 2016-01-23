@@ -18,6 +18,16 @@
 	.fork-edit h2{
 		font-size: 2rem ;
 	}
+	.fork-stev{
+		padding-bottom: 220px;
+	}
+	.fork-stev p {
+		font-size: 1.5rem;
+		
+	}
+	.slider-controls{
+		left: 43%;
+	}
 	.fork-get h2{
 		font-size: 4rem;
 		text-align: center;
@@ -49,6 +59,14 @@
 	}
 	.fork-edit h2{
 		font-size: 300%;
+	}
+	.fork-stev p {
+		font-size: 1.7rem;
+		
+	}
+	.slider-controls{
+		bottom: -36px;
+		left: 46%;
 	}
 	.fork-get h2{
 		font-size: 270%;

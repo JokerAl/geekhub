@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 body{
 	position: relative;
 	min-width: 320px;
@@ -198,12 +206,19 @@ header .button {
   display: block !important;
 }
 /**/
-.fork-stev {
+.fork-stev{
+  position: relative;
+  margin-bottom: 20px;
+}
+.slider-content {
   position: relative;
   padding-top: 130px;
   text-align: center;
+  margin: 0 auto;
+  width: 65%;
+  padding: 40px 0 90px;
 }
-.content-slide img {
+.slider-content .slide img {
   display: inline-block;
   border-radius: 50%;
   margin-right: 24px;
@@ -245,38 +260,60 @@ header .button {
 .fork-stev span {
   font-size: 1.6rem;
 }
-.slide div{
-  position: absolute;
-  display: block;
-  margin: 5px;
-  padding: 3px 10px;
-  font-size: 3rem;
-  color: #474747;
-  opacity: 0.5;
-  transition: all 0.2s linear;
+
+.prew, .next {
+  
+  width:15px;
+  
+  position:absolute;
+  bottom:0;
+  opacity:0.8;
+  z-index:3;
 }
-.content-slide{
-  margin: 0 auto;
-  width: 78%;
-  padding: 40px 0 60px;
-  border-bottom: 1px solid grey;
+.slider-content:hover .prew, .slider-content:hover .next {
+  display:block;
 }
-.arrow-slide img:first-child {
-  left: 0;
+.prew {
+  left:-30px;
 }
-.arrow-slide img:last-child {
-  right: 0;
+.next {
+  right:-30px;
+  
 }
-.arrow-slide img {
-    position: absolute;
-    top: 55%;
-    padding: 0;
+.prew:hover, .next:hover {
+  opacity:1;
 }
 .wrapper-fork{
     position: relative;
     width: 95%;
     margin: 0 auto;
 }
+.slider-controls {
+  bottom:0;
+  left: 48%;
+  position: absolute;
+  text-align:center;
+}
+.slider-controls .control-slide {
+  margin:2px;
+  display:inline-block;
+  width:16px;
+  height:16px;
+  overflow:hidden;
+  text-indent:-9999px;
+  background:url(../img/radioBg.png) center bottom no-repeat;
+}
+.slider-controls .control-slide:hover {
+  cursor:pointer;
+  background-position:center center;
+}
+.slider-controls .control-slide.active {
+  background-position:center top;
+}
+
+
+
+
 /**/
 .social-networks {
   text-align: center;
