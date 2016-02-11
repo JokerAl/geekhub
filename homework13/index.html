@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>timer and calculator</title>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+<script language = 'javascript'>
+  var hour=1, min=0, sec=1;
+  function startTime() {
+    sec--;
+    if (sec<0){min--; sec=59;}
+    if (min<0) {hour--; min=59;}
+    if (min  < 10) min = "0" + min;
+    if (sec < 10) sec = "0" + sec;
+    document.getElementById("time").innerHTML = hour + ":" + min + ":" + sec;
+    setTimeout(startTime, 1000);
+  }
+</script>
+</head>
+<body onLoad = 'startTime()'>
+   <div id="time"></div>
+</body>
+</html>
