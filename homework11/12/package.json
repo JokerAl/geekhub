@@ -1,0 +1,21 @@
+{
+  "name": "template-gulp-sass",
+  "version": "1.0.0",
+  "description": "start template with gulp and sass",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "npm"
+  ],
+  "author": "zabilskaya",
+  "license": "MIT"
+}
