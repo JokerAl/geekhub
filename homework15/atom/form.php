@@ -12,13 +12,13 @@
 
 <?php
 
-$name = $_POST['username'];
-$email = $_POST['useremail'];
-$date = $_POST['date'];
-$tel = $_POST['telephone'];
-$beer = $_POST['beer'];
-$sex = $_POST['sex'];
-$old = $_POST['old'];
+$name = $_GET['username'];
+$email = $_GET['useremail'];
+$date = $_GET['date'];
+$tel = $_GET['telephone'];
+$beer = $_GET['beer'];
+$sex = $_GET['sex'];
+$old = $_GET['old'];
 $form_data = [
     'Name'=>$name,
     'Email'=>$email,
