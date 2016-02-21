@@ -1,0 +1,62 @@
+@import 'variables';
+@media screen and (min-width: 979px){
+  .h-page {
+    h1 {
+      margin: 45px 0;
+      width: 20%;
+    }
+    .hamburger {
+      display: none !important;
+    }
+    .container-fluid .menu-primary-menu-links-container {
+      position: static;
+      float: right;
+      width: 80%;
+      background: transparent;
+      ul{
+        display: block !important;
+        li {
+          float: right;
+          min-width: 130px;
+          &:first-of-type {
+            a {
+              box-shadow: -1px 0 0 #1d1d1d, inset -1px 0 0 #1d1d1d;
+            }
+          }
+          &:hover {
+            background-color: transparent;
+          }
+          a {
+            padding: 55px 40px;
+            box-shadow: -1px 0 0 #1d1d1d;
+            &:hover {
+              box-shadow: -1px 0 0 #1d1d1d, inset 0 -6px 0 #58c93a, inset -1px 0 0 #1d1d1d;
+            }
+          }
+        }
+      }
+    }
+  }
+  div.content {
+    width: 70%;
+    float: left;
+    margin-left: 0;
+    border-right: none;
+    article {
+      .description {
+        h2 {
+          font-size: $title-size;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  div.sidebar {
+    width: 30%;
+    float: right;
+    border-left: none;
+  }
+  .f-page {
+    padding: 80px 0;
+  }
+}

@@ -1,0 +1,44 @@
+.sidebar {
+  float: right;
+  width: 95%;
+  .about{
+    margin-bottom: 80px;
+  }
+  div {
+    margin-left: 30px;
+    h3 {
+      line-height: 1.2;
+      padding: 19px 23px;
+      width: 279px;
+      background-color: #f8f8f8;
+      box-shadow: inset 3px 0 0 #58c93a;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      color: #6c6969;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    p {
+      color: #737373;
+      margin: 20px 26px 0 20px;
+    }
+    form {
+      position: relative;
+      width: 80%;
+
+      input {
+        border: 1px solid #e1e0e0;
+        padding:18px 20px;
+        width: 100%;
+
+      }
+      button {
+        top:13px;
+        right: -26px;
+        position: absolute;
+        border: 0;
+        background-color: white;
+      }
+    }
+  }
+}

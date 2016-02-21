@@ -1,0 +1,47 @@
+.content {
+    width: 100%;
+    float: left;
+    margin-left: 4%;
+    article {
+      margin-right: 50px;
+      margin-top: 80px;
+      .attachment-post-thumbnail {
+        width: 100%;
+        height: auto;
+      }
+      .description {
+        padding: 20px;
+        h2 {
+          text-transform: uppercase;
+          a{
+            color: #4f4e4e;
+          }
+        }
+        p {
+          margin-bottom: 34px;
+          color: #606060;
+          line-height: 1.2;
+        }
+        .button:hover{
+          color: black;
+          background-color: #58c93a;
+          transition: 1s;
+        }
+      }
+    }
+  }
+  .pagination {
+    padding: 110px 30px 30px;
+    color: #818181;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    a {
+      color: #818181;
+      &.next-page {
+        float: right;
+        margin-right: 50px;
+      }
+    }
+  }
+
