@@ -1,0 +1,15 @@
+homework16/.htaccess
+homework16/wp-config.php
+homework16/wp-content/uploads/
+homework16/wp-content/blogs.dir/
+homework16/wp-content/upgrade/
+homework16/wp-content/backup-db/
+homework16/wp-content/advanced-cache.php
+homework16/wp-content/wp-cache-config.php
+homework16/sitemap.xml
+homework16/*.log
+homework16/wp-content/cache/
+homework16/wp-content/backups/
+homework16/sitemap.xml.gz
+homework16/wp-content/themes/Blog/node_modules/
+homework16/wp-content/themes/Blog/.idea/

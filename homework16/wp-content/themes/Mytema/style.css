@@ -1,0 +1,77 @@
+/*
+Theme Name: Twenty Fifteen
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: Alex
+Author URI: https://vk.com/jokeral
+Description: my Tema
+Version: 1.4
+License: ionic studio
+License URI: http://serial.koma.tv
+Tags: black, blog, sidebar, white
+Text Domain: Mytema
+
+*/
+body{
+    font-family:Arial, sans-serif ;
+    font-size: 14px;
+    color: #333;
+}
+a:link,a:visited{
+    color:#006ec3;
+}
+p{
+    line-height: 1.65em;
+}
+div.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+article.post{
+    border-bottom: 2px dotted #bbbbbb;
+}
+article.post:last-of-type{
+    border-bottom: none;
+}
+.site-header{
+    border-bottom: 2px solid #999;
+}
+.site-footer{
+    border-top: 2px solid #999;
+    margin-top: 30px;
+}
+
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.site-nav ul:before, .site-nav ul:after{content: "";display:table;}
+.site-nav ul:after{clear: both;}
+.site-nav ul li {
+    list-style: none;
+    float: left;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited{
+    display: block;
+    padding: 10px 18px;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    text-decoration: none;
+}
+.site-header nav ul li a:hover{
+    background-color: #ececec;
+}
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited{
+    background-color: #006ec3;
+    color: #FFF;
+}
+article.page h2{
+    font-size: 300%;
+}
+.site-nav ul li{
+    margin: 0 5px;
+}
